@@ -1,0 +1,19 @@
+.cta {
+	text-decoration: none;
+	display: inline-block;
+	color: var(--white);
+	background-color: var(--black);
+	font-family: var(--title-font);
+	font-size: var(--title-font-size);
+	font-weight: var(--title-font-weight);
+	line-height: var(--title-font-height);
+	font-style: normal;
+	padding: 0.875rem 2.938rem 0.875rem 2.938rem;
+	border-radius: 0.313rem;
+}
+
+.cat:hover {
+	text-decoration: underline;
+	text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.188rem;
+}
