@@ -53,11 +53,46 @@
 }
 
 .adress__img {
-  width: 304.78px;
-  height: 216px;
+  width: 19rem;
+  height: 13.5rem;
 	object-fit: cover;
 }
 
 .adress__info {
 	margin: 0.5rem 0 0 0 ;
+}
+
+/* about section */
+.about {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 2.25rem;
+}
+
+.about__title {
+margin-bottom: 1rem;
+}
+
+.about__text {
+margin: 0 0 0 0;
+width: 85%;
+}
+
+/* social media content */
+.socialMedia {
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.socialMedia__title {
+	margin: 0 0 2.25rem 0;
+}
+
+.socialMedia__carousel {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 4.375rem;
 }

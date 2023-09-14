@@ -2,11 +2,15 @@
 
 /* pages */
 @import "./pages/home.css";
+@import "./pages/menu.css";
+@import "./pages/contact.css";
 
 /* modules */
 @import "./modules/appBar.css";
 @import "./modules/cta.css";
 @import "./modules/redBanner.css";
+@import "./modules/contactInfos.css";
+@import "./modules/footer.css";
 
 /* Design system */
 :root {

@@ -1,0 +1,14 @@
+.footer{
+	background-color: var(--black);
+	color: var(--white);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 5rem 4.5rem;
+}
+
+.footer__icon {
+	margin-left: 3.5rem;
+	width: 2.25rem;
+	height: 2.25rem;
+}

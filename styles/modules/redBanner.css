@@ -9,5 +9,6 @@
 }
 
 .redBanner__title {
-	
+	font-weight: var(--body-highlight-font-weight);
+	margin: 0 0 1rem 0;
 }
