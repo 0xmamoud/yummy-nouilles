@@ -42,6 +42,21 @@
   --body-line-height: 1.5rem;
 }
 
+@media (max-width: 768) {
+  :root {
+    /* mobile responsive variables*/
+    --header-font-size: 2.5rem;
+    --title-font-size: 1.25rem;
+    --body-highlight-font-size: 1rem;
+    --body-font-size: 1rem;
+
+    --header-line-height: 3rem;
+    --title-line-height: 1.5rem;
+    --body-highlight-line-height: 1.25rem;
+    --body-line-height: 1.25rem;
+  }
+}
+
 body {
   background-color: var(--light-grey);
   font-family: var(--body-font);

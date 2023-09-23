@@ -1,44 +1,81 @@
 .menu {
-display: flex;
-flex-direction: column;
-margin: 0 9.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 9.5rem;
 }
 
 .menu__title {
-	margin: 2.25rem 0 0 0;
+  margin: 2.25rem 0 0 0;
 }
 
 .menu__subtitle {
-	margin: 0 0 2.25rem 0;
+  margin: 0 0 2.25rem 0;
 }
 
 .menu__subtitleRed {
-	color: var(--red-highlight);
+  color: var(--red-highlight);
 }
 
 .menu__card {
-	background-color: var(--white);
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .menu__icon {
-	width: 9rem;
-	height: 9rem;
-	margin: 4rem 0 3rem 0;
+  width: 9rem;
+  height: 9rem;
+  margin: 4rem 0 3rem 0;
 }
 
 .menu__part {
-	margin-bottom: 3.75rem;
+  margin-bottom: 3.75rem;
 }
 
 .menu__partTitle {
-	margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .menu__partSubtitle {
-	line-height: 2.5rem;
-	margin-bottom: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  .menu__title {
+    margin: 1rem 0 0 0;
+  }
+  .menu__subtitle {
+    display: none;
+  }
+
+  .menu__card {
+    margin: 0 1rem;
+  }
+
+  .menu__icon {
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem 0;
+  }
+
+  .menu__part {
+    margin-bottom: 1rem;
+  }
+
+  .menu__partSubtitle {
+    margin-bottom: 0;
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .menu__description {
+    display: none;
+  }
 }

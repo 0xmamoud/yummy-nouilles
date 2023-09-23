@@ -1,16 +1,22 @@
 .contactInfos {
-	margin: 4.5rem 0;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  margin: 4.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contactInfos__title {
-	margin: 0 0 1rem 0;
+  margin: 0 0 1rem 0;
 }
 
 .contactInfos__text {
-	margin: 0;
-	width: 85%;
-	text-align: center;
+  margin: 0;
+  width: 85%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contactInfo__text {
+    max-width: 16rem;
+  }
 }
